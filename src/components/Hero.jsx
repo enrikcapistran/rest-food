@@ -27,7 +27,7 @@ export default function Hero() {
 }
 
 const Section = styled.section`
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   position: relative;
   .background {
