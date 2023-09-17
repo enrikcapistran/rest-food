@@ -102,4 +102,21 @@ const Section = styled.section`
         
     }
   }
+  @media screen and (min-width: 260px) and (max-width: 1080px){
+    .content{
+      flex-direction: column;
+      .sale{
+        display: none;
+      }
+      .info{
+        top: 25%;
+        h2{
+          font-size: 2rem;
+        }
+        em{
+          width: 90%;
+        }
+      }
+    }
+  }
 `;

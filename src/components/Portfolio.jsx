@@ -75,5 +75,20 @@ const Section = styled.section`
       }
     }
   }
-
+  @media screen and (min-width: 260px) and (max-width: 1080px){
+    .contect{
+      h1{
+        width: 90%;
+        font-size: 1.5rem;
+      }
+      h2{
+        font-size: 1.2rem;
+        width: 90%;
+      }
+      button{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+      }
+    }
+  }
 `;

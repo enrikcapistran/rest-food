@@ -110,4 +110,15 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 260px) and (max-width: 1080px){
+    .container{
+      .title{
+        position: initial;
+        background-color: transparent;
+      }
+      .testimonials{
+        flex-direction: column;
+      }
+    }
+  }
 `;

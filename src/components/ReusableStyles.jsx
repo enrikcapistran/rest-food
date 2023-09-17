@@ -25,7 +25,7 @@ export const TitleStyles = css`
     @media screen and (min-width: 260px) and (max-width: 1080px){
         .title{
             gap: 1rem;
-            h2{
+            h1{
                 font-size: 2rem;
             }
             p{

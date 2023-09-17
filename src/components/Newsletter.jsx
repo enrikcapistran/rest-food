@@ -55,5 +55,23 @@ button{
     padding: 1rem 4.7rem;
   }
 }
-
+@media screen and (min-width: 260px) and (max-width: 1080px){
+  .container{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    input{
+      width: 75vw;
+      padding: 0.5rem;
+      border-radius: .5rem;
+    }
+    button{
+      margin-top: 0.5rem;
+      width: 100%;
+      padding: 0.5rem;
+      &:hover{
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}
 `;

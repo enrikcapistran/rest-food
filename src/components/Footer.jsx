@@ -100,6 +100,15 @@ const Section = styled.footer`
       font-size: 2rem;
     }
   }
+  @media screen and (min-width: 260px) and (max-width: 1080px){
+    grid-template-columns: 1fr;
+    .container{
+      img{
+        height: 4rem;
+        width: 10rem;
+      }
+    }
+  }
 `;
 
 const LowerFooter = styled.div`
@@ -112,6 +121,13 @@ const LowerFooter = styled.div`
     span{
       color: #fc4958;
       text-transform: uppercase;
+    }
+  }
+  @media screen and (min-width: 260px) and (max-width: 450px){
+    h2{
+      span{
+        display: block;
+      }
     }
   }
 `;
